@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".transfer_money">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/tm_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/tm_et1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Transaction Amount" />
+
+    <Button
+        android:id="@+id/tm_b1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pay to" />
+
+    <TextView
+        android:id="@+id/tm_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/tm_b2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Make payment" />
+
+    <LinearLayout
+        android:id="@+id/tm_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
